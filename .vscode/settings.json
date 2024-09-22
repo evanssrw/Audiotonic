@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/1ae4c31d-7cab-4c33-bdcc-942381f6e336/resourceGroups/Audiotonic_group/providers/Microsoft.Web/sites/Audiotonic",
+    "appService.deploySubpath": "."
+}

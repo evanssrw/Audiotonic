@@ -1,0 +1,26 @@
+<html>
+<head>
+  <title> Stream Player </title>
+    <link href="https://vjs.zencdn.net/7.5.5/video-js.css" rel="stylesheet" />
+    <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+    <script src="https://vjs.zencdn.net/7.7.5/video.js"></script>
+</head>
+<body>
+<video id="videoPlayer"
+       class="video-js"
+       controls
+       preload="none"
+       autoplay="autoplay"
+       width="1280"
+       height="720"
+       poster="MY_VIDEO_POSTER.jpg"
+       data-setup="{}">
+    <source src="http://194.146.24.184:8080/hls/lee.m3u8" type="application/x-mpegURL" />
+    <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a
+        web browser that
+        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+</video>
+</body>
+</html>
